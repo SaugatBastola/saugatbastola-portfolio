@@ -680,39 +680,6 @@ xclip
 	position: relative;
 	overflow: hidden;
 }
-.skills-inner-box::before {
-	content: "";
-	position: absolute;
-	background: #faad3b;
-	width: 0;
-	height: 0;
-	top: 50%;
-	left: 50%;
-	border-radius: 50%;
-	-webkit-transform: translate(-50%, -50%) scale(0);
-	transform: translate(-50%, -50%) scale(0);
-	transition: -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
-	transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
-	transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease, -webkit-transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
-	-webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-	z-index: 0;
-}
-.skills-inner-box:hover::before{
-	width: 100%;
-	height: 100%;
-	-webkit-transform: translate(-50%, -50%) scale(4);
-	transform: translate(-50%, -50%) scale(4);
-	transition-duration: var(--photoboxAnimationDuration, .8s);
-	-webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-}
 
 .ser-icon{
 	width: 90px;
@@ -731,25 +698,15 @@ xclip
 	position: relative;
 	z-index: 1;
 }
-.skills-inner-box h2{
+.panel-heading h2{
 	font-size: 22px;
 	font-weight: 500;
 	position: relative;
 	z-index: 1;
 }
 
-.skills-inner-box p{
-	font-size: 14px;
-	position: relative;
-	z-index: 1;
-}
 
-.skills-inner-box:hover h2{
-	color: #ffffff;
-}
-.skills-inner-box:hover p{
-	color: #ffffff;
-}
+
 
 
 /*------------------------------------------------------------------
