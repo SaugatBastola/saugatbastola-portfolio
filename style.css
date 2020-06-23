@@ -656,6 +656,7 @@ xclip
 
 
 .right-box-pro{
+    height: 500px;
 	position: relative;
 }
 .right-box-pro img{
@@ -675,12 +676,9 @@ xclip
 #about table {
     padding: 1px;
 }
-)
 
 .flip-card {
     background-color: transparent;
-    width: 500px;
-    height: 500px;
     /* border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
